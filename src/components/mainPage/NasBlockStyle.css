@@ -1,0 +1,70 @@
+
+.nasele2{
+  width: 100%;
+}
+.bignas,.littlenas,.big_txt,.little_txt,.little_txt_distr{
+    color: rgb(38, 38, 38);
+  }
+
+  .bignas{
+  align-self: center;
+ text-shadow: 1px 1px 0px rgb(150, 62, 62);
+   margin-bottom: 0px;
+   font-size: 38px;
+  }
+  .littlenas{
+    overflow-wrap: break-word;
+    line-height: 26px;
+    width: 50%;
+    margin-top: 0px;
+    margin-left: 30%;
+    font-size: 28px;
+  }
+  .bigimg{
+    align-self: center;
+    border-radius: 18px;
+    width:  30%;
+    overflow: hidden;
+  }
+  .littleimg{
+    box-shadow: -12px 9px 9px rgba(0, 0, 0, 0.582);
+    
+    margin-left: 460px;
+    position: absolute;
+    display: flex;
+    border-radius: 18px;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+  }
+  .middleimg{
+    box-shadow: 12px 9px 9px rgba(0, 0, 0, 0.582);
+    margin-left:160px;
+    position: absolute;
+    display: flex;
+    border-radius: 18px;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    margin-top: 300px;
+  }
+  .naselenie{
+    margin-top:150px;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media screen and (max-width: 700px) {
+   .bigimg{
+    width: 70%;
+   }
+   .littlenas{
+    width: 90%;
+    
+    margin-left: 30px;
+   }
+   .nasele2{
+    margin-top: 0px;
+   }
+  }
